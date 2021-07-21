@@ -1,0 +1,140 @@
+/*
+File: pacific.css
+GUI Assignment: Style a Site with External CSS
+Aurimas Alkevicius, UMass Lowell Computer Science, aurimas_alkevicius@cs.uml.edu
+Copyright (c) 2021 by Alkevicius. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by AA on July 21, 2021 at 5:18 PM
+*/
+
+header,
+hgroup,
+nav,
+footer,
+figure,
+figcaption,
+aside,
+section,
+article {
+    display: block;
+}
+
+
+/* body styling */
+
+body {
+    background: url("../img/ptrbackground.jpg");
+    background-size: auto;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* main area of the page styling */
+
+#wrapper {
+    min-width: 600px;
+    width: 80%;
+    padding-top: 0;
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 50px;
+    background-color: white;
+}
+
+
+/* main area of the page - header styling */
+
+#wrapper header {
+    margin-top: -20px;
+    background: url("../img/sunset.jpg")no-repeat right center#000032;
+    color: white;
+}
+
+
+/* main area of the page - navbar styling */
+
+#wrapper nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    width: 150px;
+    background-color: #90c7e3;
+    overflow: hidden;
+    height: 100%;
+    font-size: 1.2em;
+    position: absolute;
+}
+
+
+/* main area of the page - navbar list styling */
+
+nav li a {
+    color: #302553;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+
+/* main area of the page - content styling */
+
+#content {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 220px;
+}
+
+
+/* main area of the page - image styling */
+
+img {
+    float: left;
+    padding-right: 20px;
+}
+
+h1 {
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+h2 {
+    color: #3399CC;
+}
+
+h1,
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#content p {
+    padding-right: 20px;
+}
+
+#content ul {
+    padding-right: 20px;
+    list-style-position: inside;
+    list-style-image: url('../img/marker.gif');
+}
+
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+    padding-left: 220px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.resort {
+    color: darkcyan;
+}
